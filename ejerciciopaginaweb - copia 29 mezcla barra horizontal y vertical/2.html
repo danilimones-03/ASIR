@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+ <form> 
+    <caption style="font-weight: bold;" >Contacta</caption><br>
+    <p style="font-weight: bold;"></p>
+    <label for="Ciudad">Elige tu ciudad:</label>
+    <select id="ciudades" name="ciudades"> 
+        <option value="Madrid">Madrid</option>
+        <option value="Barcelona">Barcelona</option>
+        <option value="Valencia">Valencia</option>
+        <option value="Cordoba">Cordoba</option>
+        <option value="Sevilla">Sevilla</option>
+        <option value="Bilbao">Bilbao</option>
+        <option value="Murcia">Murcia</option>
+        <option value="Malaga">Malaga</option>
+    </select><br><br>
+    <fieldset>
+    <p>Nombre <input type="text" name="Nombre" value="Introduzca su nombre "></p>
+    <p>Apellidos <input type="text" name="Apellidos" value="Apellidos"></p>
+    <p>Correo electronico <input type="email" name="email" value="email"></p>
+    <p>Teléfono <input type="tel" name="telefono" value="Teléfono"></p>
+    </fieldset>
+   <br>
+    <fieldset>
+    <label for="Alojamiento">Tipo de Alojamiento</label>
+    <br>
+    <input type="radio" id="Desayuno" name="Alojamiento" value="Desayuno"/>
+    <label for="Desayuno">Desayuno</label>
+
+    <input type="radio" id="Media Pensión" name="Media Pensión" value="Media Pensión"/>
+    <label for="Media Pensión">Media Pensión</label>
+   
+    <input type="radio" id="Pensión Completa" name="Pensión Completa" value="Pensión Completa"/>
+    <label for="Pensión Completa">Pensión Completa</label>
+ 
+    <input type="radio" id="Todo Incluido" name="Todo Incluido" value="Todo Incluido"/>
+<label for="Todo Incluido">Todo Incluido</label>
+<br>
+<p>Número adultos <input type="number" name="quantity" min="0" value="0"></p>
+</fieldset>
+<br>
+<label for="Información Complementaria">Información Complementaria</label>
+<br>
+
+<textarea name="Otros" id="Otros" cols="45" rows="10">Otros</textarea>
+
+<br>
+<a href="PaginaInicio.html"><input type="button" value="Volver"></a>
+<button type="reset">Limpiar </button>
+<button type="submit">Enviar</button>
+
+
+
+</form>
+</body>
+</html>
