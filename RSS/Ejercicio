@@ -6,14 +6,14 @@
   <link>https://danilimones-03.github.io/ASIR/</link>
   <description>Canal de información de Daniel</description>
   <item>
-    <title>RSS Tutorial</title>
-    <link>https://www.w3schools.com/xml/xml_rss.asp</link>
-    <description>New RSS tutorial on W3Schools</description>
+    <title>Mi primera noticia</title>
+    <link>https://www.eltiempo.es/</link>
+    <description>Informacion del tiempo</description>
   </item>
   <item>
-    <title>XML Tutorial</title>
-    <link>https://www.w3schools.com/xml</link>
-    <description>New XML tutorial on W3Schools</description>
+    <title>Mi segunda noticia</title>
+    <link>https://www.embargosalobestia.com/</link>
+    <description>Información de compras</description>
   </item>
 </channel>
 
