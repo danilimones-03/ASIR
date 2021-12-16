@@ -19,5 +19,10 @@
   <link>https://as.com/</link>
   <description>Información sobre deportes</description>
  </item>
+<image>
+  <url>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Diario_AS.svg/1200px-Diario_AS.svg.png</url>
+  <title>Imagen para el RSS</title>
+  <link>https://as.com/</link>
+</image> 
 </channel>
 </rss> 
