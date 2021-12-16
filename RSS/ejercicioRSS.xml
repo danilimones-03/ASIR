@@ -14,5 +14,10 @@
    <link>https://www.embargosalobestia.com/</link>
    <description>Información de compras</description>
  </item>
+ <item>
+  <title>Mi tercera noticia</title>
+  <link>https://as.com/</link>
+  <description>Información sobre deportes</description>
+ </item>
 </channel>
 </rss> 
