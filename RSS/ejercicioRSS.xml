@@ -18,7 +18,7 @@
   <title>Mi tercera noticia</title>
   <link>https://as.com/</link>
   <description>Información sobre deportes</description>
- <imagen enlace="img/as.png">img/as.png</image>
+ <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Diario_AS.svg/1200px-Diario_AS.svg.png" />
  </item>
 </channel>
 </rss> 
