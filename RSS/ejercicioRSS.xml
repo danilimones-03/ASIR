@@ -4,6 +4,7 @@
  <title>Mi canal RSS</title>
  <link>https://danilimones-03.github.io/ASIR/</link>
  <description>Canal de información de Daniel</description>
+ <languaje>es</languaje>
  <item>
    <title>Mi primera noticia</title>
    <link>https://www.eltiempo.es/</link>
@@ -19,7 +20,8 @@
   <title>Mi tercera noticia</title>
   <link>https://as.com/</link>
   <description>Información sobre deportes</description>
-  <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Diario_AS.svg/1200px-Diario_AS.svg.png" medium="image" width="550px" height="384px"/>
+  <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Diario_AS.svg/1200px-Diario_AS.svg.png" medium="image" />
+
  </item>
 </channel>
 </rss> 
