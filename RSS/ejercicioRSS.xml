@@ -8,17 +8,18 @@
    <title>Mi primera noticia</title>
    <link>https://www.eltiempo.es/</link>
    <description>Información del tiempo actualizada a 16/12/21</description>
+  
  </item>
  <item>
    <title>Mi segunda noticia</title>
    <link>https://www.embargosalobestia.com/</link>
-   <description>Información de compras</description>
+   <description>Información de compras de la pagina embargos a lo bestia.....</description>
  </item>
  <item>
   <title>Mi tercera noticia</title>
   <link>https://as.com/</link>
   <description>Información sobre deportes</description>
- <imagen enlace="img/as.png">img/as.png</image>
+  <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Diario_AS.svg/1200px-Diario_AS.svg.png" medium="image" width="550px" height="384px"/>
  </item>
 </channel>
 </rss> 
