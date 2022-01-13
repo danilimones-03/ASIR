@@ -6,17 +6,24 @@
  <description>Canal de información de Daniel</description>
  <languaje>es</languaje>
  <item>
+  <guid isPermaLink="false">https://www.eltiempo.es</guid>
    <title>Mi primera noticia</title>
    <link>https://www.eltiempo.es/</link>
    <description>Información del tiempo actualizada a 16/12/21</description>
   
  </item>
  <item>
+  <guid isPermaLink="false">https://www.embargosalobestia.com</guid>
    <title>Mi segunda noticia</title>
    <link>https://www.embargosalobestia.com/</link>
+<<<<<<< HEAD
    <description>Información de compras.</description>
+=======
+   <description>Información de compras .</description>
+>>>>>>> 2e8c9352a7369e4d69bd5a87c328f7b5390e55be
  </item>
  <item>
+  <guid isPermaLink="false">https://as.com/</guid>
   <title>Mi tercera noticia</title>
   <link>https://as.com/</link>
   <description>Información sobre deportes</description>
