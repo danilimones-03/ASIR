@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+   <rss version="2.0">
+    
+    <channel>
+        <title>Noticias Daniel/title>
+        <link>https://danilimones-03.github.io/ASIR/</link>
+        <description>Canal de informacion de Daniel Limones Arredondo</description>
+        <language>es</language>
+        
+
+        <item>
+            <guid isPermaLink="false">https://www.eltiempo.es</guid>
+            <title>Mi primera noticia</title>
+            <link>https://www.eltiempo.es</link>
+            <dc:creator>Daniel Limones</dc:creator>
+            <category>Tiempo</category>
+            <media:content url="https://static.vocento.com/eltiempo/assets/img/twitter_card.jpg" medium="image"/>
+        </item>
+
+
+        <item>
+            <guid isPermaLink="false">https://www.embargosalobestia.com</guid>
+            <title>Embargos a lo bestia</title>
+            <link>https://www.embargosalobestia.com/</link>
+            <dc:creator>Daniel Limones Arredondo</dc:creator>
+            <category>Compras</category>
+            <description>
+                Pagina de compras
+            </description>
+            <media:content url="https://static2.laverdad.es/www/multimedia/201906/15/media/cortadas/embargos-kIGF--624x385@La%20Verdad.jpg" medium="image"/>
+        </item>
+
+        
+        <item>
+            <guid isPermaLink="false">https://as.com</guid>
+            <title>Diario AS</title>
+            <link>https://as.com</link>
+            <dc:creator>Daniel Limones Arredondo</dc:creator>
+            <category>Deportes</category>
+            <description>
+            Diario de deportes
+            </description>
+            <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Diario_AS.svg/1200px-Diario_AS.svg.png" medium="image"/>
+        </item>
+    </channel>
+</rss>
