@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<patrones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="patronesregulares.xsd">
+
+    <telefono>+34123456789</telefono>
+
+    <password>jg5glR4H</password>
+
+    <dni>14619983X</dni>
+
+
+    <pastilla>v1agra</pastilla>
+
+   <email>danilimones93@gmail.com</email>
+</patrones>

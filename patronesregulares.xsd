@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="patrones">
+        <xs:complexType>
+            <xs:sequence>
+                <!--Ejercicio 1: patrón para un número de teléfono como el siguiente +34 123456789-->
+                <xs:element name="telefono">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="[+][0-9]{11}"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <!--Ejercicio 2: Patrón para poner un password entre 5 y 8 caracteres con mayusculas, minusculas y números -->
+                <xs:element name="password">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:minLength value="5"/>
+                            <xs:maxLength value="8"/>
+                            <xs:pattern value="[a-zA-Z0-9]*"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <!--Ejercicio 3: Patrón para el DNI 301 010 10A -->
+                <xs:element name="dni">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="[0-9]{8}[A-Z]"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                 <!--Ejercicio 5: Patron para coincidencia con la palabra "viagra" y con algunas de las alteraciones que utilizan 
+                    los emisores de spam, por ejemplo: vi@gra v1agra v1@gra v!@gr@ -->
+                <xs:element name="pastilla">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="viagra|vi@gra|v1agra|v1@gra|v!@gr@"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <!--Ejercicio 6: Patrón para correo electrónico por ejemplo: daniel@gmail.com -->
+                <xs:element name="email">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="[a-z0-9]*[@][a-z]*[.][a-z]*"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+
+
+    <!-- Esto es la definición del tipo "tipoSemana" -->
+    <xs:simpleType name="expresiones">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="tonteria"/>
+            <xs:enumeration value="maldito"/>
+            <xs:enumeration value="caray"/>
+            <xs:enumeration value="caramba"/>
+            <xs:enumeration value="madre"/>
+            <xs:enumeration value="mia"/>
+            <xs:enumeration value="ostras"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
