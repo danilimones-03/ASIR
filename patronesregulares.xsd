@@ -4,7 +4,7 @@
     <xs:element name="patrones">
         <xs:complexType>
             <xs:sequence>
-                <!--Ejercicio 1: patrón para un número de teléfono como el siguiente +34 123456789-->
+                <!--Ejercicio 1: telefono-->
                 <xs:element name="telefono">
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
@@ -13,7 +13,7 @@
                     </xs:simpleType>
                 </xs:element>
 
-                <!--Ejercicio 2: Patrón para poner un password entre 5 y 8 caracteres con mayusculas, minusculas y números -->
+                <!--Ejercicio 2: Contraseña entre 5 y 8 caracteres mayusculas,minusculas y numeros -->
                 <xs:element name="password">
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
@@ -24,7 +24,7 @@
                     </xs:simpleType>
                 </xs:element>
 
-                <!--Ejercicio 3: Patrón para el DNI 301 010 10A -->
+                <!--Ejercicio 3: Patrón para el DNI  -->
                 <xs:element name="dni">
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
@@ -33,8 +33,7 @@
                     </xs:simpleType>
                 </xs:element>
 
-                 <!--Ejercicio 5: Patron para coincidencia con la palabra "viagra" y con algunas de las alteraciones que utilizan 
-                    los emisores de spam, por ejemplo: vi@gra v1agra v1@gra v!@gr@ -->
+                 <!--Ejercicio 5: Patron para coincidencia con la palabra "viagra"  -->
                 <xs:element name="pastilla">
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
@@ -43,7 +42,7 @@
                     </xs:simpleType>
                 </xs:element>
 
-                <!--Ejercicio 6: Patrón para correo electrónico por ejemplo: daniel@gmail.com -->
+                <!--Ejercicio 6: Patrón para correo electrónico -->
                 <xs:element name="email">
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
@@ -59,7 +58,7 @@
     </xs:element>
 
 
-    <!-- Esto es la definición del tipo "tipoSemana" -->
+    <!--  tipo "tipoSemana" -->
     <xs:simpleType name="expresiones">
         <xs:restriction base="xs:string">
             <xs:enumeration value="tonteria"/>
