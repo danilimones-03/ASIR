@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<xs:schema xmlns="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="resumenes">
+    <xs:complexType>
+
+        <xs:sequence>
+        <!-- Definicion elementos simples-->
+     <xs:element name="ConjuntosSimples">
+         <xs:complexType>
+             <!-- Vamos a definir elementos simples-->
+             <xs:all>
+                 <xs:element name="SinAtributo" type="xs:string"/>
+                <xs:element name="SinAtributoSimple" type="xs:date"/>
+                  <xs:element name="SinAtributoTipoDefinido" type="direccion"/>
+                    <xs:element name="ConAtributo" type="xs:integrer"/>
+                    <xs:simplexType>
+
+
+                    </xs:simplexType>
+             </xs:all>
+
+            </xs:complexType>
+        </xs:element>
+<!-- Definimos elementos Complejos-->
+<xs:element name="ConjuntosComplejos">
+    <xs:complexType>
+        <!-- Vamos a definir elementos complejos-->
+        <xs:all>
+        <!-- Sin atributos con tipos base-->
+        <xs:element name="Elemento1">
+            <xs:complexType>
+            <xs:sequence>
+                <xs:element name="subElemento1" type="xs:string"/>
+                <xs:element name="subElemento2" type="xs:integrer"/>
+            </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+        <xs:element name="Elemento2"/>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="subElemento1" type="xs.string"/>
+                <xs:element name="subElemento2" type="xs:integrer"/>
+            </xs:sequence>
+        </xs:complexType>
+        </xs:all>
+    </xs:complexType>
+    <!-- Restricciones-->
+
+
+    <!-- Expresiones regulares-->
+
+
+    <!-- 1.Numerica-->
+    <xs:element name="Numero de hijos">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="20"/>
+          </xs:restriction>
+        </xs:simpleType>
+    </xs:element> 
+    <!-- 2.De cadena-->
+
+
+    <!-- 3.Mixtas-->
+
+
+    <!-- All/Choise/Sequence-->
+
+
+    <!-- max-minOccurs-->
+
+
+    <!-- Grupos de elementos a reutilizar-->
+
+    
+</xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+    <!-- Definicion de tipos-->
+    <!--Tipo "Definicion" -->
+    <xs:element name="direccion"/>
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="Sevilla"/>
+        <xs:enumeration value="Cordoba"/>
+        <xs:enumeration value="Huelva"/>
+
+    </xs:restriction>
+    <!-- Tipo "Direccion"-->
+<xs:complexType name="direccion">
+    <xs:sequence>
+    <xs:element name="localidad" type="xs:string"/>
+    <xs:element name="CP" type="xs:string"/>
+    <xs:element name="ciudad" type="xs:string"/>
+    <xs:element name="ciudad2" type="ciudad"/>
+
+
+    </xs:sequence>
+</xs:complexType>
+
+</xs:schema>

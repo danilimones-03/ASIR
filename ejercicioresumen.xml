@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<ejercicioresumen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="ejercicioresumen.xsd">
+<ConjuntosSimples>
+<SinAtributo>Elemento Simple</SinAtributo>
+<SinAtributoSimple>2020-10-10</SinAtributoSimple>
+<SinAtributoTipoDefinido>Sevilla</SinAtributoTipoDefinido>
+<!-- Repetir lo anterior pero con atributos-->
+<ConAtributo id="0">Elemento Simple con Atributos</ConAtributo>
+
+
+
+
+
+</ConjuntosSimples>
+<ConjuntosComplejos>
+<Elemento1>
+    <subElemento1>de tipo cadena</subElemento1>
+<subElemento2>2</subElemento2>
+</Elemento1>
+<Elemento2>
+<subElemento1></subElemento1>
+<subElemento2></subElemento2>    
+</Elemento2>
+<Elemento3>
+    <subElemento1>Sevilla</subElemento1>
+    <subElemento2>
+        <localidad>Ecija</localidad>
+    <CP>41400</CP>
+    <ciudad>Cualquier ciudad</ciudad>
+    <ciudad2>Sevilla</ciudad2>
+  </subElemento2>
+</Elemento3>
+</ConjuntosComplejos>
+<numerodehijos>44</numerodehijos>
+</ejercicioresumen>
