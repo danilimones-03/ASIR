@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="futbol">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Equipo">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="nombre" type="xsd:string" maxOccurs="unbounded" />
+                            <xsd:element name="Copas" type="xsd:integer" />
+                            <xsd:element name="Jugadores">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="Pichichi">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="Nombre" type="xsd:string" />
+                                                    <xsd:element name="FechaNacimiento" type="xsd:date" />
+                                                    <xsd:element name="Goles" type="xsd:string" />
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                        <xsd:element name="Tarjetas">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="Amarillas" type="xsd:string" />
+                                                    <xsd:element name="Rojas" type="xsd:string" />
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                        <xsd:element name="Equipacion">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="Primera" type="xsd:string" />
+                                                    <xsd:element name="Segunda" type="xsd:string" />
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="Partidos ">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="Ganados" type="xsd:string" />
+                                        <xsd:element name="Empatados" type="xsd:string" />
+                                        <xsd:element name="Perdidos" type="xsd:string" />
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="Estadio">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="Nombre" type="xsd:string" />
+                                                    <xsd:element name="Capacidad" type="xsd:string" />
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

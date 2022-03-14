@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="restricciones">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="persona">
+                    <xs:complexType><!--El XS:all me indica que puedo poner los elementos en el orden que yo quiera,pero deben aparecer,excepto cuando especifico el mínimo y el máximo-->
+                        <xs:all>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="apellidos" type="xs:string"/>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="empresa">
+            </xs:element>
+                    <!-- Ejemplo de restricción numéricos-->
+                    <xs:element name="edad">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:integer">
+                                <xs:minInclusive value="0"/>
+                                <xs:maxInclusive value="120"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:complexType><!--El choise elijo una de las opciones que tengo dentro, pero solo una-->
+                        <xs:choice>
+                            <xs:element name="empleado" type="xs:string"/>
+                            <xs:element name="miembro" type="xs:string"/>
+                        </xs:choice>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

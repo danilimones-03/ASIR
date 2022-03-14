@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabla>Consolas
+</tabla>
+    <plataforma>
+        <p1>PS</p1>
+        <p1>PS</p1>
+        <p3>XBOX</p3>
+    </plataforma>
+    <version>
+<p1>4</p1>
+<p2>5</p2>
+<p3>2021</p3>
+    </version>
+ <juegos>
+<accion>
+<p1>Call of duty</p1>
+<p2>GTA 5</p2>
+<p3>Assasins Creed</p3>
+
+</accion>
+<rol>
+<p1>Final Fantasy</p1>
+<p2>Cyberpunk 2077</p2>
+<p3>Skyrim</p3>
+</rol>
+<arcade>
+<p1>pac-man</p1>
+<p2>Fallout</p2>
+<p3>Dark Souls</p3>
+</arcade>
+ </juegos>   
