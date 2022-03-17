@@ -5,7 +5,7 @@
 <medicamentos>
     <medicamento>
     <nombre id="ID1">
-        <generico>Acido acetilsalicilico</generico>
+        <generico>Acido acetilsalicico</generico>
         <comercial>Aspirina</comercial>
 
     </nombre>
