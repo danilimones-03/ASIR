@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE TVSCHEDULE SYSTEM "ejemplos.dtd">
+<TVSCHEDULE NAME="">
+
+
+<CHANNEL CHAN="Telecinco">
+    <BANNER>Pelicula de telecinco</BANNER>
+    <DAY>
+        <DATE>"fecha"</DATE>
+        <PROGRAMSLOT>
+        <TIME></TIME>
+        <TITLE></TITLE>
+        <DESCRIPTION></DESCRIPTION>
+        
+        </PROGRAMSLOT>
+        <HOLIDAY></HOLIDAY>
+        <PROGRAMSLOT VTR="atributo">
+        <TIME></TIME>
+        <TITLE></TITLE>
+        </PROGRAMSLOT>
+    </DAY>
+</CHANNEL>
+<CHANNEL CHAN="Antena 3">
+    <BANNER></BANNER>
+<DAY>
+  <DATE></DATE> 
+  <HOLIDAY></HOLIDAY> 
+  <PROGRAMSLOT>
+<TIME></TIME>
+<TITLE RATING="5"></TITLE>
+  </PROGRAMSLOT>
+</DAY>
+
+
+
+</CHANNEL>
+
+
+</TVSCHEDULE>

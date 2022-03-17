@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0"?>
 <futbol  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:noNamespaceSchemaLocation="futbol.xsd">
@@ -35,4 +36,43 @@
         </equipo>
     </equipos>
 
+=======
+<?xml version="1.0"?>
+<futbol  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="futbol.xsd">
+<futbol>
+    <equipos>
+        <equipo>
+            <nombre>Betis</nombre>
+            <copas>0</copas>
+            <jugadores>
+                <pichichi>
+                    <nombre>Joaquin</nombre>
+                    <fechaNacimiento>1980-10-10</fechaNacimiento>
+                    <goles>100</goles>
+                    <tarjetas>
+                        <amarillas>1</amarillas>
+                        <rojas>0</rojas>
+                    </tarjetas>
+                </pichichi>
+            </jugadores>
+            <equipacion>
+                <primera>blanco y verde</primera>
+                <segunda>azul y blanca</segunda>
+            </equipacion>
+            <partidos>
+                <jugados>
+                    <ganados>100</ganados>
+                    <perdidos>10</perdidos>
+                    <empatados>50</empatados>
+                </jugados>
+            </partidos>
+            <estadio> 
+                <nombre>Benito Villamarin</nombre>
+                <capacidad>60000</capacidad>
+            </estadio>
+        </equipo>
+    </equipos>
+
+>>>>>>> 492b5d6e78e7c63b487fae5758c1b43c2c239ccd
 </futbol>

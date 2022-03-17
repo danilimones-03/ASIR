@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<resumenes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="resumen.xsd">
+
+  <ConjuntoSimples>
+    <sinAtributo>Daniel</sinAtributo>
+    <sinAtributoTipoSimple>2004-02-22</sinAtributoTipoSimple>
+    <sinAtributoTipoDefinido>Sevilla</sinAtributoTipoDefinido>
+  </ConjuntoSimples>
+
+<ConjuntoComplejos>
+  <Elemento1>
+    <subElemento1></subElemento1>
+    <subElemento2></subElemento2>
+  </Elemento1>
+
+  <Elemento2 id="0">
+    <subElemento1></subElemento1>
+    <subElemento2></subElemento2>
+  </Elemento2>
+
+  <Elemento3>
+    <subElemento1></subElemento1>
+    <subElemento2>
+      <localicad></localicad>
+      <CP>41400</CP>
+      <ciudad>Sevilla</ciudad>
+    </subElemento2>
+  </Elemento3>
+
+  <Elemento4 id="0">
+    <subElemento1></subElemento1>
+    <subElemento2></subElemento2>
+      <CP>41400</CP>
+      <ciudad>Sevilla</ciudad>
+    
+  </Elemento4>
+
+</ConjuntoComplejos>
+
+<telefono></telefono>
+
+<contrasena>Usuario1</contrasena>
+
+<Audi>Verde</Audi>
+
+<Secuencia>
+<Nombre></Nombre>
+<Apellidos></Apellidos>
+
+</Secuencia>
+
+</resumenes>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<asignatura  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="asignatura.xsd">
+    <trimestre ciclo="primero">
+        <asignatura nombre="Lenguaje de Marcas">
+            <tema id="4">
+                <nombre>RSS</nombre>
+                <notamedia>
+                    <teoria>5.4</teoria>
+                    <teoria>9.4</teoria>
+                    <practica>6.2</practica>
+                    <practica>7.2</practica>
+                </notamedia>
+            </tema>
+            <tema id="5">
+                <nombre>SCHEMA</nombre>
+                <notamedia>
+                    <teoria>5.4</teoria>
+                    <teoria>9.4</teoria>
+                    <practica>6.2</practica>
+                    <practica>7.2</practica>
+                </notamedia>
+            </tema>
+            <fechaExamenes>2021-10-20</fechaExamenes>
+        </asignatura>
+
+        <asignatura nombre="plar">
+            <tema id="8">
+                <nombre>vlan</nombre>
+                <notamedia>
+                    <teoria>5.4</teoria>
+                    <teoria>9.4</teoria>
+                    <practica>6.2</practica>
+                    <practica>7.2</practica>
+                </notamedia>
+            </tema>
+            <tema id="7">
+                <nombre>SWITCH</nombre>
+                <notamedia>
+                    <teoria>5.4</teoria>
+                    <teoria>9.4</teoria>
+                    <practica>6.2</practica>
+                    <practica>7.2</practica>
+                </notamedia>
+            </tema>
+            <fechaExamenes>2021-10-20</fechaExamenes>
+        </asignatura>
+    </trimestre>
+</calendario>

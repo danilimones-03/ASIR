@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0"?>
 
 <restricciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -10,4 +11,19 @@ xsi:noNamespaceSchemaLocation="restricciones.xsd">
         <empleado>Juan Perez</empleado>
         <edad></edad>
     </empresa>
+=======
+<?xml version="1.0"?>
+
+<restricciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="restricciones.xsd">
+<persona>
+    <nombre></nombre>
+    <apellidos></apellidos>
+    </persona>
+    <empresa>
+        <empleado>Juan Perez</empleado>
+        <edad>18</edad>
+        <coche>Audi</coche>
+    </empresa>
+>>>>>>> 492b5d6e78e7c63b487fae5758c1b43c2c239ccd
 </restricciones>

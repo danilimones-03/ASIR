@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE medicamentos SYSTEM "medicamentos.dtd">
+<!-- Esta es la estructura del medicamento copiar para poner otro-->
+
+<medicamentos>
+    <medicamento>
+    <nombre id="ID1">
+        <generico>Acido acetilsalicilico</generico>
+        <comercial>Aspirina</comercial>
+
+    </nombre>
+    
+<!-- Intramuscular y oral-->
+    <administracion tipo="oral">4h o 6h</administracion>
+
+    
+
+    <cantidaddosis>500mg</cantidaddosis>
+    
+    
+</medicamento>
+    
+<medicamento>
+    <nombre id="ID2">
+        <generico>Heparina </generico>
+        <comercial>Inhepar</comercial>
+
+    </nombre>
+    
+<!-- Intramuscular y oral-->
+    <administracion tipo="Intramuscular">12h</administracion>
+
+    
+
+    <cantidaddosis>80 UI/kg</cantidaddosis>
+    
+    
+</medicamento>
+
+</medicamentos>
