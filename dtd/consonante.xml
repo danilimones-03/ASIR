@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE declaraciones [
+   <!ELEMENT declaraciones (consonante,tipo_de_dato,variable+)>
+   <!ELEMENT consonante (#PCDATA)>
+      <!ATTLIST consonante valor CDATA #REQUIRED>
+   <!ELEMENT tipo_de_dato (#PCDATA)>
+   <!ELEMENT variable (#PCDATA)>
+   <!ELEMENT variable2 (#PCDATA)>
+   <!ATTLIST consonante valor CDATA #REQUIRED>
+  <!ATTLIST variable tipo  CDATA #IMPLIED>
+      
+]>
+
+<declaraciones>
+   <consonante valor="3.141592">PI</consonante>
+   <tipo_de_dato>tipo de dato</tipo_de_dato>
+   <variable tipo="real">radio</variable>
+   <variable>Area</variable>
+   <variable>longitud</variable>
+</declaraciones>
+<!-- Se le pone el mas para indicar que variable puede aparecer varias veces-->
+<!-- En declaraciones quitamos las barras y ponemos comas-->

@@ -1,0 +1,21 @@
+<!ELEMENT formas (forma_geometrica+)>
+<!ELEMENT forma_geometrica ((cuadrado|rombo|circulo|triangulo|otra),caracteristicas)>
+<!ELEMENT cuadrado (#PCDATA)>
+<!ELEMENT rombo (#PCDATA)>
+<!ELEMENT circulo (#PCDATA)>
+<!ELEMENT triangulo (#PCDATA)>
+<!ELEMENT otra (#PCDATA)>
+<!ELEMENT caracteristicas (color, tipo)>
+   <!ELEMENT color (#PCDATA)>
+   <!ELEMENT tipo (#PCDATA)>
+
+
+<!ATTLIST cuadrado LADOS CDATA #IMPLIED>
+<!ATTLIST rombo LADOS CDATA #IMPLIED>
+<!ATTLIST circulo LADOS CDATA #IMPLIED>
+<!ATTLIST triangulo LADOS CDATA #IMPLIED>
+<!ATTLIST otra LADOS CDATA #IMPLIED>
+
+
+   <!-- Que tenga una o mas forma geometrica-->
+   <!-- En la seccion de nombre hay que poner que sea cuadrado o rombo o circulo o triangulo o otra -->
