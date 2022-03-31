@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE formas SYSTEM "figuras%20geometricas.dtd">
+<formas>
+<forma_geometrica>
+   <cuadrado LADOS="4"/>
+    
+    <caracteristicas>
+       <color>naranja</color>
+       <tipo>plana</tipo>
+    </caracteristicas>
+    
+</forma_geometrica>
+
+ </formas>
+<!--Poner todos los elementos-->
