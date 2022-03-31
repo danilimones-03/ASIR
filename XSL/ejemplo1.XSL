@@ -9,16 +9,27 @@
       <th style="text-align:left">Title</th>
       <th style="text-align:left">Artist</th>
       <th style="text-align:left">Price</th>
+      <th style="text-align:left">Country</th>
     </tr>
     <xsl:for-each select="catalog/cd">
+    <xsl:sort select="artist" order="descending"/>
+    <xsl:sort select="price" data-type="number" order="descending" />
+   
+
+    <xsl:if test="(price &lt; 10) AND (price &gt; 7)">
     <tr>
       <td><xsl:value-of select="title"/></td>
       <td><xsl:value-of select="artist"/></td>
       <td><xsl:value-of select="price"/></td>
+      <td><xsl:value-of select="country"/></td>
     </tr>
+    </xsl:if>
     </xsl:for-each>
   </table>
 </body>
 </html>
 </xsl:template>
 </xsl:stylesheet>
+<!-- El elemento xsl:template  se utiliza para crear plantillas personalizadas.-->
+<!-- La etiqueta "<xsl:template match=/>" se utiliza para asociar una plantilla con un archivo XML.-->
+<!-- -->
