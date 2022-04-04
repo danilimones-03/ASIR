@@ -47,7 +47,15 @@
       </xsl:choose>
           <td><xsl:value-of select="price"/></td>
           <xsl:if test="price &gt; 10">
-          
+          <td bgcolor="#ff00ff">
+            <xsl:value-of select="price"></xsl:value-of></td>
+          </xsl:if>
+          <xsl:if test="price &gt; 8 and price &lt; 10">
+          <td bgcolor="#ff0000">
+          <xsl:value-of select="price"/></td>
+        </xsl:if>
+        <xsl:if test="price &gt; 10">
+          <td bgcolor="white"><xsl:value-of select ="price"/></td>
           </xsl:if>
         </tr>
        
