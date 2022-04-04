@@ -13,18 +13,7 @@
     <tr>
       <td><xsl:value-of select="title"/></td>
       <td><xsl:value-of select="artist"/></td>
-      <xsl:choose>
-        <!-- Utilizamos choose para escoger entre distintas opciones-->
-       <!-- Con when se especifica la condicion a cumplir-->
-       <!-- Con otherwise especificamos que se hace,si la condición no se cumple-->
-        <xsl:when test="price &gt; 10">
-          <td bgcolor="#ff00ff">
-          <xsl:value-of select="artist"/></td>
-        </xsl:when>
-        <xsl:otherwise>
-          <td><xsl:value-of select="artist"/></td>
-        </xsl:otherwise>
-      </xsl:choose>
+      
     </tr>
     </xsl:for-each>
   </table>
