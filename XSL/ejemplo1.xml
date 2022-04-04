@@ -12,47 +12,6 @@
     <year>1985</year>
   </cd>
   <cd>
-    <title>Empire </title>
-    <artist>Bob Dylan</artist>
-    <country>USA</country>
-    <company>Columbia</company>
-    <price>14.90</price>
-    <year>1995</year>
-  </cd>
-  <cd>
-    <title id="1">T1</title>
-    <artist>Bob Dylan</artist>
-    <country>USA</country>
-    <company>Columbia</company>
-    <price>7.90</price>
-    <year>1985</year>
-  </cd>
-<cd>
-    <title id="2">T2</title>
-    <artist>Bob Dylan</artist>
-    <country>USA</country>
-    <company>Columbia</company>
-    <price>17.90</price>
-    <year>1985</year>
-  </cd>
-<cd>
-    <title id="3">T3</title>
-    <artist>Bob Dylan</artist>
-    <country>USA</country>
-    <company>Columbia</company>
-    <price>10.90</price>
-    <year>1985</year>
-  </cd>
-<cd>
-    <title id="4">Hide your heart</title>
-    <artist>Bonnie Tyler</artist>
-    <country>UK</country>
-    <company>CBS Records</company>
-    <price>9.90</price>
-    <year>1988</year>
-  </cd>
-tmt-vjdn-yje
-  <cd>
     <title>Hide your heart</title>
     <artist>Bonnie Tyler</artist>
     <country>UK</country>
