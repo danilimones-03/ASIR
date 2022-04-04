@@ -26,7 +26,7 @@
             <!-- Utilizamos choose para escoger entre distintas opciones-->
             <xsl:choose>
             <!-- Con when especificamos la condición a cumplir-->
-        <xsl:when test="price &gt; 10">
+        <xsl:when test="price &gt; 8 and price &lt; 11">
           <td bgcolor="#ff00ff">
           <xsl:value-of select="artist"/></td>
         </xsl:when>
