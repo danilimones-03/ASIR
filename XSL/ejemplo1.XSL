@@ -46,6 +46,9 @@
         </xsl:otherwise>
       </xsl:choose>
           <td><xsl:value-of select="price"/></td>
+          <xsl:if test="price &gt; 10">
+          
+          </xsl:if>
         </tr>
        
       </xsl:for-each>
