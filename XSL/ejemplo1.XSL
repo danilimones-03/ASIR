@@ -19,7 +19,11 @@
         <xsl:if test="artist='Bob Dylan'">  
           <!-- Filtramos por atributos de elementos con la @atributo -->
           <xsl:if test="title/@id='2'">
+        </xsl:if>
+      </xsl:if>
+    </xsl:if>
           <tr>
+          
             <!-- Seleccionar el valor de un elemento que indico con select-->
             <td><xsl:value-of select="title"/>
             </td>
@@ -41,12 +45,9 @@
           <td><xsl:value-of select="artist"/></td>
         </xsl:otherwise>
       </xsl:choose>
-            <td><xsl:value-of select="artist"/></td>
           <td><xsl:value-of select="price"/></td>
         </tr>
-        </xsl:if>
-        </xsl:if>
-      </xsl:if>
+       
       </xsl:for-each>
     </table>
   </body>
