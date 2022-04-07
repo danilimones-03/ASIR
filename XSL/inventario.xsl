@@ -26,8 +26,8 @@
         <hr />
         <h2>Inventario</h2>
         <table border="2">
-          <xsl:for-each select="Inventario/Producto">
-            <tr bgcolor="red">
+          <xsl:for-each select="inventario/producto">
+            <tr bgcolor="#ff5733">
               <th colspan="2">
                 Elemento
                 <xsl:value-of select="@codigo" />
