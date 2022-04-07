@@ -13,6 +13,31 @@
             </ul>
           </xsl:for-each>
         </ul>
+        <hr/>
+        <h2>Inventario</h2>
+        <table border="2">
+          <xsl:for-each select="Inventario/Producto" >
+          <tr bgcolor="red">
+            <th colspan="2">Elemento
+              <xsl:value-of select="@codigo"/>
+            </th>
+          </tr>
+          <tr>
+            <td>Nombre</td>
+            <td>
+              <xsl:value-of select="nombre"/>
+            </td>
+          </tr>
+          <tr>
+          <td>Peso</td>
+          <td>
+            <xsl:value-of select="peso"/>
+            <xsl:value-of select="./peso/@unidad"/>
+
+          </td>
+        </tr>
+        </xsl:for-each>
+        </table>
       </body>
     </html>
   </xsl:template>
