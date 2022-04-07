@@ -45,8 +45,10 @@
           <td><xsl:value-of select="artist"/></td>
         </xsl:otherwise>
       </xsl:choose>
-          <td><xsl:value-of select="price"/></td>
-          <xsl:if test="price &gt; 10">
+
+
+
+          <xsl:if test="price &lt; 8">
           <td bgcolor="#ff00ff">
             <xsl:value-of select="price"></xsl:value-of></td>
           </xsl:if>
@@ -55,7 +57,7 @@
           <xsl:value-of select="price"/></td>
         </xsl:if>
         <xsl:if test="price &gt; 10">
-          <td bgcolor="white"><xsl:value-of select ="price"/></td>
+          <td bgcolor="blue"><xsl:value-of select ="price"/></td>
           </xsl:if>
         </tr>
        
