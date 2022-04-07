@@ -1,31 +1,21 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<xsl:stylesheet version="1.0"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:template match="/">
-        <html>
-            <head>
-                <title>Inventario</title>
-            </head>
-            <body>
-                <ul>
-                    <xsl:for-each select="Inventario/Producto">
-
-                        <li>
-                            Elemento:<xsl:value-of select="./@codigo"/>
-
-
-                        <ul>
-                            <li>Nombre:<xsl:value-of select="Nombre"/>
-                            </li>
-
-                            <li>    Peso:    <xsl:value-of select="Peso"/>
-                            <xsl:value-of select="Peso/@unidad"/>
-                        </li>
-                    </ul>
-                </li>
-            </xsl:for-each>
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:template match="/">
+    <html>
+    <head>
+    <h2>Almacen</h2>>
+    </head>
+      <body>
+        <ul>
+          <xsl:for-each select="inventario/producto">
+            <li>Elemento: <xsl:value-of select="./@codigo"/></li>
+            <ul>
+              <li>Nombre: <xsl:value-of select="nombre"/></li>
+              <li>Peso: <xsl:value-of select="peso"/><xsl:value-of select="peso/@unidad"/></li>
+            </ul>
+          </xsl:for-each>
         </ul>
-    </body>
-</html>
-</xsl:template>
+      </body>
+    </html>
+  </xsl:template>
 </xsl:stylesheet>
