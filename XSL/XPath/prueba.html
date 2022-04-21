@@ -21,7 +21,7 @@ function showResult(xml) {
         var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
         var result = nodes.iterateNext();
         while (result) {
-            txt += result.childNodes[0].nodeValue + " xd <br>";
+            txt += result.childNodes[0].nodeValue + " prueba archivo <br>";
             result = nodes.iterateNext();
         } 
     } 
